@@ -1,0 +1,7 @@
+streamlit
+pandas
+httpx
+beautifulsoup4
+selenium
+langchain-google-genai
+langgraph
