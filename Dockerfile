@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Set environment variables for Selenium
-ENV CHROME_usr=/usr/bin/chromium
-ENV CHROME_Driver=/usr/bin/chromedriver
+ENV CHROME_BIN=/usr/bin/chromium
+ENV CHROMEDRIVER_PATH=/usr/bin/chromedriver
 
 # Copy requirements and install Python packages
 COPY requirements.txt .
