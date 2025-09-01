@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: web-scraper
+    env: docker
+    plan: free
+    autoDeploy: true
