@@ -24,7 +24,7 @@ from langgraph.graph import StateGraph, END
 from typing import TypedDict, Annotated
 
 # Set Gemini API Key
-os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY")
+os.environ['GOOGLE_API_KEY'] = 'AIzaSyDypUivUcbbuJMzKtpqzGeAQII5LbUkc_k'
 
 # Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3)
